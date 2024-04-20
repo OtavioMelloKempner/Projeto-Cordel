@@ -28,7 +28,7 @@ header{
 
 header > h1{
     padding-top: 50px;
-    font-size: 5em;
+    font-size: 10vw;
     font-family: var(--fonte01);
     
 
@@ -59,24 +59,36 @@ section{
     font-family: var(--fonte02);
     font-size: 1.5em;
     text-align: justify;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 0px black;
 }
 
 section.normal{
     background-color: white;
+    
 
 }
 section.imagem{
     background-attachment: fixed;
-    background-position: left center;
-    
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
 
 }
 
+section#img01{
+    background-image: url("../imagens/background001.jpg");
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02{
+    background-image: url("../imagens/background002.jpg");
+    background-position: right center;
+}
+
 section.imagem > p{
-    background-color: rgba(0, 0, 0, 0.411);
+    background-color: rgba(0, 0, 0, 0.514);
     color: white;
-    width: 300px;
+    width: 400px;
     
 
 }

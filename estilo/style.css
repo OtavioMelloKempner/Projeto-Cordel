@@ -16,6 +16,7 @@
 html, body{
     min-height: 100vh;
     background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
 header{
@@ -67,7 +68,7 @@ section.normal{
 }
 section.imagem{
     background-attachment: fixed;
-    background-position: right center;
+    background-position: left center;
     
 
 }

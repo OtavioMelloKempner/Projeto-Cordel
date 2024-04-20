@@ -16,12 +16,15 @@
 html, body{
     min-height: 100vh;
     background-color: white;
+    
 }
 header{
     background-color: black;
     color: white;
     text-align: center;
+    
 }
+
 header > h1{
     padding-top: 50px;
     font-size: 5em;
@@ -55,6 +58,7 @@ section{
     font-family: var(--fonte02);
     font-size: 1.5em;
     text-align: justify;
+    text-shadow: 1px 1px 1px black;
 }
 
 section.normal{
@@ -62,8 +66,10 @@ section.normal{
 
 }
 section.imagem{
-    background-position: center center;
     background-attachment: fixed;
+    background-position: right center;
+    
+
 }
 
 section.imagem > p{
